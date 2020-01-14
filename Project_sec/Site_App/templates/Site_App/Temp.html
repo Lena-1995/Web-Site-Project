@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+
+<!--
+
+    <form action="" method="post">{% csrf_token %}
+
+
+      {{ form.as_p }}
+
+         <div>
+          <button type="submit" class="btn btn-primary">Register</button>
+         </div>
+
+
+    </form>
+-->
+
+
+
+</body>
+</html>
+
+
+
+<form class="modal-content animate" action="/action_page.php">
+
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
+        <img src="1.png" alt="Avatar" class="avatar">
+        <h1 style="text-align:center; color:#1abc9c;">Login or Register</h1>
+      </div>
+    <!--
+      //
+      //  import from here user/pass
+      //
+      //
+      //
+      // -->
+
+      <div class="container" align="center">
+          <form action="" method="post">{% csrf_token %}
+
+
+                {{ form.as_p }}
+
+                <div>
+                   <button type="submit" class="btn btn-primary">Register</button>
+                </div>
+
+
+           </form>
+
+
+
+
+        <input type="text" placeholder="Enter Username" name="uname">
+        <input type="password" placeholder="Enter Password" name="psw">
+
+        <button type="submit">Login</button>
+        <button type="submit">Register</button>
+
+        <input type="submit" value="Log in">
+
+        <a href="#" style="text-decoration:none; float:right; margin-right:34px; margin-top:0px;">Forgot Password ?</a>
+
+
+
+        <form action="/your-name/" method="post">
+         <label for="your_name">Your name: </label>
+         <input id="your_name" type="text" name="your_name" value="{{ current_name }}">
+         <input type="submit" value="OK">
+        </form>
+
+
+
+
+
+
+          <form action="/your-name/" method="post">
+             <label for="your_name">Your name: </label>
+             <input id="your_name" type="text" name="your_name" value="{{ current_name }}">
+              <input type="submit" value="OK">
+          </form>
+
+
+
+
+          <label for="your_name">Your name: </label>
+          <input id="your_name" type="text" name="your_name" maxlength="100" required>
+
+      </div>
+
+
+
+    </form>

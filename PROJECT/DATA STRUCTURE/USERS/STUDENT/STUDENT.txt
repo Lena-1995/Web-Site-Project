@@ -1,0 +1,11 @@
+USERNAME
+PASSWORD
+EMAIL
+PERMISIONS
+
+
+&class
+
+*site settings 
+*books
+*tests
