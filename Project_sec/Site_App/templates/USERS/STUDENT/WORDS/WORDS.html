@@ -76,14 +76,7 @@ It is positioned relative until a given offset position is met in the viewport -
   flex-wrap: wrap;
 }
 
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
+
 
 /* Main column */
 .main {
@@ -125,6 +118,39 @@ It is positioned relative until a given offset position is met in the viewport -
     width: 100%;
   }
 }
+
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+
+
+}
+
+
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 26px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+	font-size:20px;
+}
+button:hover {
+    opacity: 0.8;
+}
 </style>
 </head>
 <body>
@@ -135,22 +161,22 @@ It is positioned relative until a given offset position is met in the viewport -
 </div>
 
 <div class="navbar">
-  <a href="#" class="active">Home</a>
+  <a href="file:///C:/Users/avivbron/Desktop/PROJECT/SITE%20htmls/USERS/STUDENT/Student_page.html" class="active">Home</a>
   <a href="#">Link</a>
   <a href="#">Link</a>
-  <a href="#" class="right">Contact Us</a>
+  <a href="file:///C:/Users/avivbron/Desktop/PROJECT/SITE%20htmls/CONTACT_US.html" class="right">Contact Us</a>
 </div>
 
 <div class="row">
 	<div class="side">
-		<button type="button">ALPHABET</button>
-		<button type="button">BOOKS</button>
-		<button type="button">TEST</button>
-		<button type="button">WORDS</button>
-		<button type="button">TUTORIAL</button>
+		<button type="button" onclick="window.location.href = 'file:///C:/Users/avivbron/Desktop/PROJECT/SITE%20htmls/USERS/STUDENT/ALPHABET/ALPHABET.html';">ALPHABET</button>
+		<button type="button" onclick="window.location.href = 'file:///C:/Users/avivbron/Desktop/PROJECT/SITE%20htmls/USERS/STUDENT/BOOKS/BOOKS.html';">BOOKS</button>
+		<button type="button" onclick="window.location.href = 'file:///C:/Users/avivbron/Desktop/PROJECT/SITE%20htmls/USERS/STUDENT/TEST/TEST.html';">TEST</button>
+		<button type="button" onclick="window.location.href = 'file:///C:/Users/avivbron/Desktop/PROJECT/SITE%20htmls/USERS/STUDENT/WORDS/WORDS.html';">WORDS</button>
 	</div>
   <div class="main">
-   <h2>WORDS</h2>
+    <h2>WORDS</h2>
+
   </div>
 </div>
 
