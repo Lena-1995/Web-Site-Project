@@ -112,26 +112,9 @@ class ADMIN(USERS):
 
 class TEACHER(USERS):
     Teacher = True
+    Classes=list()
+    Classes=CLASS()
 
-    class CLASS(models.Model):
-        CLASS_NAME = models.CharField(max_length=64)
-
-        class STUDENT(USERS):
-            Student = True
-
-            def __str__(self):
-                return self.STUDENT
-
-            class Meta:
-                verbose_name = "STUDENT"
-                verbose_name_plural = "STUDENTS"
-
-        def __str__(self):
-            return self.CLASS_NAME
-
-        class Meta:
-            verbose_name = "CLASS"
-            verbose_name_plural = "CLASSES"
 
     def __str__(self):
         return self.Teacher
@@ -144,11 +127,30 @@ class TEACHER(USERS):
 
 
 
+class CLASS(models.Model):
+    CLASS_NAME = models.CharField(max_length=64)
+    Students=List(STUDENT)
+
+    def __str__(self):
+        return self.CLASS_NAME
+
+    class Meta:
+        verbose_name = "CLASS"
+        verbose_name_plural = "CLASSES"
 
 
 
 
 
+class STUDENT(USERS):
+        Student = True
+
+        def __str__(self):
+            return self.STUDENT
+
+        class Meta:
+            verbose_name = "STUDENT"
+            verbose_name_plural = "STUDENTS"
 
 
 
