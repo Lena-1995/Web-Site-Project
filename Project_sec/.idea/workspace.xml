@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35531deb-c63c-4a56-be7c-2f71d84e0275" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Project_sec.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project_sec.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site_App/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Site_App/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site_App/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Site_App/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_App/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Site_App/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../untitled" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -82,9 +84,9 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="Project_sec.settings" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Lena\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
@@ -148,6 +150,9 @@
       <workItem from="1579048531153" duration="9345000" />
       <workItem from="1579062922871" duration="313000" />
       <workItem from="1579092681490" duration="951000" />
+      <workItem from="1579098546263" duration="724000" />
+      <workItem from="1579170133461" duration="5821000" />
+      <workItem from="1579229422722" duration="128000" />
     </task>
     <servers />
   </component>
@@ -159,15 +164,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="70" key="#Intentions/0.0.1536.824@0.0.1536.824" timestamp="1575844016574" />
-    <state x="451" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579048957063">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579170398955">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578357184120" />
+    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1579170398955" />
     <state x="451" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579048957063" />
-    <state x="686" y="211" key="FileChooserDialogImpl" timestamp="1579062942262">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1579208218282">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578448254760" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579208218282" />
     <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579062942262" />
     <state x="644" y="305" width="258" height="213" key="Github.ShareDialog" timestamp="1575846587144">
       <screen x="0" y="0" width="1536" height="824" />
@@ -205,15 +210,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1575853640333" />
-    <state x="346" y="68" key="SettingsEditor" timestamp="1579057794808">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="277" y="54" key="SettingsEditor" timestamp="1579170651117">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578355904825" />
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579170651117" />
     <state x="346" y="68" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579057794808" />
-    <state x="581" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1579092733783">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1579229479751">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578780878196" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579229479751" />
     <state x="581" y="298" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579092733783" />
   </component>
 </project>
