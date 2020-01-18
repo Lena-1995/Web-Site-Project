@@ -1,7 +1,0 @@
-after importing project from git u need to chack if u have all of settings:
-Django 
-pip
-pilow
-
-as well: u need to instal django from Terminal
-pip install django
