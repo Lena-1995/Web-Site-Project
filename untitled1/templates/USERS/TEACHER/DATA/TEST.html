@@ -1,0 +1,12 @@
+{% extends 'project_site.html' %}
+{% block title %}TEST{% endblock %}
+{% block content1 %}
+
+
+{% endblock %}
+{% block content2 %}
+     {% for obj in TEST %}
+        <h1>{{ obj.name }}</h1>--->1:{{ obj.q1 }},2:{{ obj.q2 }},3:{{ obj.q3 }},4:{{ obj.q4 }},5:{{ obj.q5 }}
+    {% endfor %}
+
+{% endblock %}

@@ -1,0 +1,60 @@
+ {% if user.is_authenticated %}
+        {% if user.is_superuser %}
+
+        {% elif user.is_staff%}
+
+        {% else %}
+
+        {% endif %}
+{% else %}
+
+
+
+
+{% endif %}
+
+
+
+
+
+
+ {% if user.is_authenticated %}
+        {% if user.is_superuser %}
+                h2>Tutorial Video</h2>
+                <iframe width="420" height="315"
+                     src="https://www.youtube.com/watch?v=ql4S8z1jW8I?autoplay=1">
+                </iframe>
+                <h3>Photo of...</h3>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p>Some text about Us.</p>
+        {% elif user.is_staff%}
+              <h2>Tutorial Video</h2>
+                <iframe width="420" height="315"
+                     src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+                </iframe>
+                <h3>Photo of...</h3>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p>Some text about Us.</p>
+
+        {% else %}
+                <button type="button" onclick="window.location.href = '#';">ALPHABET</button>
+                  <button type="button" onclick="window.location.href = '#';">BOOKS</button>
+                 <button type="button" onclick="window.location.href = '#';">TEST</button>
+                 <button type="button" onclick="window.location.href = '#';">WORDS</button>
+
+                <h2>Tutorial Video</h2>
+                 <iframe width="420" height="315"
+    src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+    </iframe>
+        {% endif %}
+{% else %}
+     <h2>About Us</h2>
+    <h5>Photo of me:</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text about Us.</p>
+    <h3>More Text</h3>
+    <p>נושא על תמונות תחתונות</p>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div>
+{% endif %}

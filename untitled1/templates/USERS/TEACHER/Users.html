@@ -1,0 +1,20 @@
+{% extends 'project_site.html' %}
+
+{% block content1 %}
+
+    <button type="button" onclick="window.location.href = 'ADD_USER';">ADD_USERD</button>
+
+
+{% endblock %}
+{% block title %}STUDENT LIST{% endblock %}
+{% block content2 %}
+
+    {% for obj in Users %}
+        {% if not obj.is_staff %}
+          <a href="#"><strong>{{ obj.username }}</strong>
+        {% endif %}
+
+    {% endfor %}
+
+
+{% endblock %}

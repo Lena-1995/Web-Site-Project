@@ -1,0 +1,13 @@
+{% extends 'project_site.html' %}
+{% block title %}Data{% endblock %}
+{% block content1 %}
+
+
+{% endblock %}
+{% block content2 %}
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button style="background-color:#f47356; color:blue" class="btn btn-outline-info" type="submit">UPLOAD</button>
+    </form>
+{% endblock %}

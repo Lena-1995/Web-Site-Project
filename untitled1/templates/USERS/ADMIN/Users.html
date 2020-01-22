@@ -1,0 +1,10 @@
+{% extends 'project_site.html' %}
+{% block title %}USERS{% endblock %}
+
+{% block content2 %}
+
+    {% for obj in Users %}
+        <a href="#"><strong>{{ obj.username }}</strong></a>
+    {% endfor %}
+
+{% endblock %}

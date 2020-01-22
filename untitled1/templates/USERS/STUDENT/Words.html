@@ -1,0 +1,15 @@
+{% extends 'project_site.html' %}
+{% block title %}WORDS{% endblock %}
+
+{% block content2 %}
+
+    {% for obj in WORDS %}
+
+        <h1>{{ obj.name }}</h1>
+        <img src="{{ obj.img.url }}" alt="img" width="315" height="315">
+
+
+    {% endfor %}
+
+
+{% endblock %}
